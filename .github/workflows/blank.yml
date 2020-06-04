@@ -7,7 +7,7 @@ jobs:
     steps:
     - name: Run a multi-line script
       run: |
-for i in $(seq 10000000)
-do
-  echo -e "\e[0mThis is a \e[32mline\e[0m \e[1m$i"
-done
+        for i in $(seq 10000000)
+        do
+          echo -e "\e[0mThis is a \e[32mline\e[0m \e[1m$i"
+        done
