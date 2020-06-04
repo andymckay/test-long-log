@@ -9,5 +9,5 @@ jobs:
       run: |
         for i in $(seq 10000000)
         do
-          echo -e "\e[0mThis is a \e[32mline\e[0m \e[1m$i"
+          echo -e "\e[0mThis is \e[32mline\e[0m \e[1m$i."
         done
